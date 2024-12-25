@@ -1,0 +1,24 @@
+---GET----
+http://localhost:8080/api/student
+
+----POST----
+http://localhost:8080/api/student
+
+RequestBody
+{
+	"name":"Kumba",
+    "dept":"CSE"
+}
+
+----PUT----
+http://localhost:8080/api/update
+
+RequestBody
+{
+	"id":"3",
+    "name":"Kanguva",
+    "dept":"EEE"
+}
+
+----DELETE-----
+http://localhost:8080/api/student/2

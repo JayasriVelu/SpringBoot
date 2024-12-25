@@ -1,0 +1,37 @@
+----GET-------
+http://localhost:8080/student/get?name=Arivu
+
+----POST-------
+http://localhost:8080/student/add
+
+RequestBody
+{
+	"name":"Mani",
+    "dept":"ECE"
+}
+
+---PUT------
+http://localhost:8080/student/update
+
+RequestBody
+{
+	"id":"4",
+    "dept":"EEE",
+    "name":"Mani"
+
+}
+
+----DELETE----------
+http://localhost:8080/student/delete?id=4
+
+
+----PATCH--------
+http://localhost:8080/student/patch?id=3
+
+RequestBody
+{
+    "dept":"ECE"
+}
+
+----GET All-----
+http://localhost:8080/student/getAll

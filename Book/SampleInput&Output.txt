@@ -1,0 +1,15 @@
+---GET---
+http://localhost:8082/book/get?id=1
+---POST---
+http://localhost:8082/book/add 
+
+Request Body
+{
+	"bookname": "Dayinlife",
+    "yearofpublish":"2000",
+    "author":"Arivukanan"
+}
+---DELETE---
+http://localhost:8082/book/delete/?id=3
+--GET All---
+http://localhost:8082/book/getall
